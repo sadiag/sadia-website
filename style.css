@@ -1,0 +1,56 @@
+body{
+            font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: darkcyan;
+}
+.name-com{
+    color: blueviolet;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 70%;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,salmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
